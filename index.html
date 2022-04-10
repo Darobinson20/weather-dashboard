@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>
+   
+</head>
+<body>
+
+<Header class="header">
+        <h1>Weather Dashboard</h1>
+    </Header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-4">
+            <div class="card">
+            <h3 class="card-header text-uppercase">Search for a City:</h3>
+            <form id="user-form" class="card-body">
+           <label class="form-label" for="city">City</label>
+           <input name="city" id="city" type="text" autofocus="true" class="form-input" />
+           <button type="search" class="btn">Search</button>
+       </form>
+    </div>
+    </div>
+    
+    <div class="col-lg-9">
+        <div class="row mr-0">
+            <div class="col-lg-11 card m-3 d-none" id="todays-weather">
+                <div class="card-stuff">
+                    <h3 id="city-name" class="city-name align-middle"></h3>
+                    <img id="current-pic" alt="">
+                    <p id="Temp:"></p>
+                    <p id="Wind:"></p>
+                    <p id="Humidity:"></p>
+                    <p id="UV Index:"></p>
+             </div>
+        </div>
+    </div>
+
+ 
+   
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

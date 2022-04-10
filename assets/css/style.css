@@ -1,0 +1,19 @@
+.header {
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.btn {
+    border-radius: 0%;
+}
+
+.container {
+    align-items: center;
+    text-align: left;
+    margin: auto;
+  
+
+}
+
